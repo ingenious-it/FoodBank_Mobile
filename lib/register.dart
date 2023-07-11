@@ -195,10 +195,10 @@ class _myRegisterState extends State<myRegister> {
                               ),
                               onPressed: () {
                                 Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => myRegister(),
-                                  ));
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => myRegister(),
+                                    ));
                               },
                               child: Row(
                                 mainAxisAlignment:

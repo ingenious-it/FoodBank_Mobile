@@ -3,6 +3,8 @@ import 'package:flutter_application_1/HomeScreen.dart';
 import 'colors.dart' as colors;
 
 class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -16,14 +18,14 @@ class WelcomeScreen extends StatelessWidget {
                 Container(
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height / 1.6,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.white,
                   ),
                 ),
                 Container(
                     width: MediaQuery.of(context).size.width,
                     height: MediaQuery.of(context).size.height / 1.6,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
                           colors.ColorPalette.green,
@@ -47,7 +49,7 @@ class WelcomeScreen extends StatelessWidget {
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2.666,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: colors.ColorPalette.green,
                 ),
               ),
